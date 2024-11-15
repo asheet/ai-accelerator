@@ -28,3 +28,6 @@ spec:
       managementState: Removed
     datasciencepipelines:
       managementState: Removed
+    modelregistry:
+      managementState: Managed
+      registriesNamespace: rhoai-model-registries
