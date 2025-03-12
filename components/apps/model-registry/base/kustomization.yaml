@@ -3,7 +3,6 @@ kind: Kustomization
 
 resources:
   - model-registry-secret.yaml
-  - model-registry.yaml
   - model-registry-db-parameters.yaml
   - mysql-deployment.yaml
   - mysql-ns.yaml
