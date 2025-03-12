@@ -9,4 +9,4 @@ resources:
   - mysql-ns.yaml
   - mysql-pvc.yaml
   - mysql-secret.yaml
-  - mysql-svc.yaml
+  - mysql-service.yaml
