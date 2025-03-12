@@ -22,7 +22,7 @@ spec:
       volumes:
         - name: metadata-mysql
           persistentVolumeClaim:
-            claimName: metadata-mysql
+            claimName: metadata-mysql-rhoai-model-registry
       containers:
         - resources: {}
           readinessProbe:
