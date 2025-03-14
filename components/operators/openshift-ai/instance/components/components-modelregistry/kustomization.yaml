@@ -6,7 +6,7 @@ namespace: rhoai-model-registries
 resources:
   - model-registry-secret.yaml
   - model-registry.yaml
-  - /mysql-db
+  - ./mysql-db
 
 patches:
   - path: patch-datasciencecluster.yaml
