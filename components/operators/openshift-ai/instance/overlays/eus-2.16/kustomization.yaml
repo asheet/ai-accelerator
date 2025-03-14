@@ -5,7 +5,8 @@ namespace: redhat-ods-applications
 
 resources:
   - ../../base
-
+  - ../../components/components-modelregistry
+  
 components:
   - ../../components/components-serving
   - ../../components/components-training
@@ -17,4 +18,4 @@ components:
   - ../../components/model-server-pod-sizes
   - ../../components/rhoai-dashboard-access
   - ../../components/auth-with-authorino
-  - ../../components/components-modelregistry
+
