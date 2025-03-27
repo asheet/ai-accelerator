@@ -18,3 +18,4 @@ components:
   - ../../components/rhoai-dashboard-access
   - ../../components/auth-with-authorino
   - ../../components/components-modelregistry
+  - ../../components/components-distributed-compute
