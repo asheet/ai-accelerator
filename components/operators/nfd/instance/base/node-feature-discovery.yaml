@@ -3,12 +3,10 @@ kind: NodeFeatureDiscovery
 metadata:
   name: nfd-instance
 spec:
-  enableTaints: false
   instance: ''
   operand:
     imagePullPolicy: IfNotPresent
     servicePort: 12000
-  prunerOnDelete: false
   topologyUpdater: false
   workerConfig:
     configData: |
