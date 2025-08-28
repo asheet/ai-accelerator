@@ -5,5 +5,5 @@ commonAnnotations:
   argocd.argoproj.io/sync-options: SkipDryRunOnMissingResource=true
 
 resources:
-  - ../../../operator/overlays/stable
+  - ../../../operator/overlays/v23.2
   - ../../../instance/overlays/aws
